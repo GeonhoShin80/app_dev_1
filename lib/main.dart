@@ -19,9 +19,10 @@ class CustomContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 100,
-      height: 100,
-      color: Colors.red
+      width: 300,
+      height: 300,
+      color: Colors.red.shade200,
+      padding: const EdgeInsets.fromLTRB(200, 100, 100, 100),
       child: const Text('Hello Container'),
     );
   }
